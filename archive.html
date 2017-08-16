@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2ndfl</title>
+	<!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-sm">
+		    <div class="modal-content">
+		    	<div class="modal-header modal-header-set text-center">
+			    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title title-city">Оставьте заявку</h4>
+			        <p class="text-application">перезвоним в течении 5-10 минут.</p>
+			    </div>
+		       <form class="form-set" role="form">
+				    <div class="form-group">
+					    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ваше имя" required>
+				    </div>
+				    <div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" required>
+				    </div>
+				    <div class="form-group">
+					    <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Телефон" required>
+				    </div>
+				    <button class="btn-checkout" data-toggle="modal" data-target=".bs-example-modal-sm">Отправить</button>
+				</form>
+		    </div>
+	    </div>
+	</div>
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+	    	<div class="modal-content citys">
+	    		<h2>Выберите город</h2>
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+			        	<ul class="citys__list">
+				            <li><a href="#">Абакан</a></li>
+				            <li><a href="#">Архангельск</a></li>
+				            <li><a href="#">Астрахань</a></li>
+				            <li><a href="#">Барнаул</a></li>
+				            <li><a href="#">Белгород</a></li>
+				            <li><a href="#">Брянск</a></li>
+				            <li><a href="#">Владикавказ</a></li>
+			        	</ul>
+			        </div>
+			        <div class="col-md-3 col-xs-6">
+			        	<ul class="citys__list">
+				            <li><a href="#">Абакан</a></li>
+				            <li><a href="#">Архангельск</a></li>
+				            <li><a href="#">Астрахань</a></li>
+				            <li><a href="#">Барнаул</a></li>
+				            <li><a href="#">Белгород</a></li>
+				            <li><a href="#">Брянск</a></li>
+				            <li><a href="#">Владикавказ</a></li>
+			        	</ul>
+			        </div>
+			        <div class="col-md-3 col-xs-6">
+			        	<ul class="citys__list">
+				            <li><a href="#">Абакан</a></li>
+				            <li><a href="#">Архангельск</a></li>
+				            <li><a href="#">Астрахань</a></li>
+				            <li><a href="#">Барнаул</a></li>
+				            <li><a href="#">Белгород</a></li>
+				            <li><a href="#">Брянск</a></li>
+				            <li><a href="#">Владикавказ</a></li>
+			        	</ul>
+			        </div>
+			        <div class="col-md-3 col-xs-6">
+			        	<ul class="citys__list">
+				            <li><a href="#">Абакан</a></li>
+				            <li><a href="#">Архангельск</a></li>
+				            <li><a href="#">Астрахань</a></li>
+				            <li><a href="#">Барнаул</a></li>
+				            <li><a href="#">Белгород</a></li>
+				            <li><a href="#">Брянск</a></li>
+				            <li><a href="#">Брянск</a></li>
+			        	</ul>
+			        </div>
+				</div>
+				<div class="text-right">
+		            <a class="citys__order" href="#">Другой город...</a>
+		        </div>
+	    	</div>
+		</div>
+	</div>
+	<header class="container container-lg">
+		<button class="btn-city" data-toggle="modal" data-toggle="modal" data-target=".bs-example-modal-lg">Санкт-Петербург</button>
+		<div class="row row-ident">
+			<div class="col-sm-6 col-md-2 col-lg-3">
+				<a href="index.html" class="logo">
+					<img class="img-responsive" src="img/logo.png" alt="Логотип" width="139" height="121">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 col-lg-3">
+				<div class="phone-quest">
+					<img src="img/icon/smartphone.png" alt="Иконка">
+					<p class="phone-quest__text">Возникли вопросы?<a class="phone" href="tel:7">8 (996) 0000000</a></p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 col-lg-3">
+				<div class="schedule">
+					<img src="img/icon/time.png" alt="Иконка">
+					<div class="schedule__time">
+						<p><span class="schedule-color">Пн-Пт</span>: с 10-00 до 20-00</p>
+						<p><span class="schedule-color">Сб-Вс</span>: с 10-00 до 18-00</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<button class="btn-checkout" data-toggle="modal" data-target=".bs-example-modal-sm">Оформить заказ</button>
+			</div>
+		</div>
+	</header>
+	<div class="container container-lg">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-3 col-lg-3">
+						<div class="circles">
+							<div class="circles__circle">
+								<span class="circles__img icon-doc"></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-lg-9">
+						<section class="title-block">
+							<h3 class="title-block__name">Архив новостей</h3>
+							<span class="title-block__dots">...</span>
+						</section>
+					</div>
+				</div>
+		        <article class="news">
+		        	<img class="img-responsive" src="https://avatars.mds.yandex.net/get-mpic/175985/cms_resources-navigation-pages-37785-pc1k8hgbvtl3lgqqo5ts3cpoab_1400x350@x1.jpeg/orig" alt="news">
+		        	<section class="news__item">
+		        		<h3>Lorem ipsum dolor sit amet.</h3>
+		        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quam distinctio nemo quos inventore, veritatis facere ea praesentium, eos ducimus modi consequatur nam voluptas ut nisi molestiae labore soluta. Asperiores!</p>
+		        		<a href="#">Читать далее</a>
+		        	</section>
+		        </article>
+			</div>
+	        <aside class="col-md-4">
+	        	<div class="free-consultation free-consultation--ident">
+					<section class="title-block">
+						<h2 class="title-block__name title-block__name--color">Бесплатная консультация</h2>
+						<span class="title-block__dots title-block__dots--margin">...</span>
+						<p class="title-block__text title-block__text--size">Заполните форму и мы свяжемся с вами</p>
+					</section>
+					<form class="block-form block-form--ident-none">
+					    <div class="form-group">
+					    	<input type="text" class="block-form__control" placeholder="Имя" required="">
+					    </div>
+					    <div class="form-group">
+					    	<input type="number" class="block-form__control" placeholder="Телефон" required="">
+					    </div>
+					    <button class="block-form__btn block-form__btn--color">Заказать консультацию</button>
+					</form>
+				</div>
+	        </aside>
+		</div>
+	</div>
+	<footer class="container container-lg">
+		<div class="row row-ident">
+			<div class="col-sm-6 col-md-2 col-lg-3">
+				<a href="index.html" class="logo">
+					<img class="img-responsive" src="img/logo.png" alt="Логотип" width="139" height="121">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 col-lg-3">
+				<div class="phone-quest">
+					<img src="img/icon/smartphone.png" alt="Иконка">
+					<p class="phone-quest__text">Возникли вопросы?<a class="phone" href="tel:7">8 (996) 0000000</a></p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 col-lg-3">
+				<div class="schedule">
+					<img src="img/icon/time.png" alt="Иконка">
+					<div class="schedule__time">
+						<p><span class="schedule-color">Пн-Пт</span>: с 10-00 до 20-00</p>
+						<p><span class="schedule-color">Сб-Вс</span>: с 10-00 до 18-00</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<button class="btn-checkout" data-toggle="modal" data-target=".bs-example-modal-sm">Оформить заказ</button>
+			</div>
+		</div>
+	</footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jquery-migrate/jquery-migrate.min.js"></script>
+	<script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+	<script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
