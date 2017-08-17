@@ -2,6 +2,11 @@ body {
   font: 300 16px "Roboto", "Arial", sans-serif;
   color: #716e6d;
 }
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0px;
+}
 .logo {
   display: block;
 }
